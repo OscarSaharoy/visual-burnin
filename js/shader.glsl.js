@@ -1,11 +1,7 @@
-// Oscar Saharoy 2022
+// Oscar Saharoy 2023
 
 
-const fragmentShader = `
-
-// ====================================================================================
-
-// remix of http://www.pouet.net/prod.php?which=57245 by Danilo Guanabara
+export default `
 
 #define t uTime
 
@@ -52,7 +48,6 @@ void main() {
     mainImage( gl_FragColor, gl_FragCoord.xy );
 }
 
-// ====================================================================================
 
 `;
 
